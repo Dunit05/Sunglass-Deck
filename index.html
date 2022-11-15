@@ -15,17 +15,19 @@
     </div>
 
     <!-- Nav -->
-    <header>
+    <header class="container">
       <div>
         <h2 class="text-logo">Sunglass Deck</h2>
       </div>
       <nav>
         <ul>
-          <li><a href="#home" class="active">Home</a></li>
-          <li><a href="#categories">Categories</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact" class="btn-primary">Contact</a></li>
+          <li><a href="#home" class="active" title="Home">Home</a></li>
+          <li><a href="#categories" title="Categories">Categories</a></li>
+          <li><a href="#products" title="Products">Products</a></li>
+          <li><a href="#testimonials" title="Testimonials">Testimonials</a></li>
+          <li>
+            <a href="#contact" class="btn-primary" title="Contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -45,7 +47,7 @@
           voluptatum. Quisquam, quae voluptatum.
         </p>
         <button class="btn-primary long-btn">
-          <a href="#products">Shop Now!</a>
+          <a href="#products" title="Shop Now">Shop Now!</a>
         </button>
       </div>
     </section>
@@ -90,10 +92,10 @@
     </section>
 
     <!-- Products -->
-    <section id="products">
+    <section id="products" class="container">
       <h2>Products</h2>
       <div class="line"></div>
-      <div class="container products">
+      <div class="products">
         <div class="product">
           <img src="Sunglasses_1.png" />
           <h2>Product 1</h2>
@@ -103,7 +105,7 @@
             quae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptates, quae.
           </p>
-          <button class="btn-primary">Add to Cart</button>
+          <button class="btn-primary" title="Add to Cart">Add to Cart</button>
         </div>
         <div class="product">
           <img src="Sunglasses_2.png" />
@@ -114,7 +116,7 @@
             quae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptates, quae.
           </p>
-          <button class="btn-primary">Add to Cart</button>
+          <button class="btn-primary" title="Add to Cart">Add to Cart</button>
         </div>
         <div class="product">
           <img src="Sunglasses_3.png" />
@@ -125,7 +127,7 @@
             quae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptates, quae.
           </p>
-          <button class="btn-primary">Add to Cart</button>
+          <button class="btn-primary" title="Add to Cart">Add to Cart</button>
         </div>
       </div>
     </section>
@@ -148,7 +150,7 @@
 
     <!-- Contact -->
     <section id="contact">
-      <div class="contact-group container">
+      <div class="contact-group">
         <h2>Send Us a Message</h2>
         <div class="line"></div>
         <form>
@@ -157,7 +159,7 @@
             type="text"
             id="fname"
             name="firstname"
-            placeholder="Your name.."
+            placeholder="Your first name.."
           />
 
           <label for="lname">Last Name</label>
@@ -183,7 +185,7 @@
             placeholder="Write your message..."
           ></textarea>
 
-          <button class="btn-primary long-btn">Submit</button>
+          <button class="btn-primary long-btn" title="Submit">Submit</button>
         </form>
       </div>
     </section>
