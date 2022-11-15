@@ -208,6 +208,7 @@ nav ul li a:hover {
 
 .categories-img:hover .overlay {
     opacity: 1;
+    cursor: pointer;
 }
 
 /* Products */
@@ -223,14 +224,17 @@ nav ul li a:hover {
     display: flex;
 }
 
-.product {
+.product { /* ! .product - class inner element */
     margin: 20px;
     text-align: center;
     height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .product img {
-    height: 200px;
+    width: 100%;
     object-fit: cover;
 }
 
